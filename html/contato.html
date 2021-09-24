@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <title>Contato</title>
+</head>
+
+<body class="fundo">
+    <header>
+        <a href="../html/index.html">
+            <h1>Homem-Aranha</h1>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../html/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../html/contato.html">Contato</a>
+                </li>
+                <li>
+                    <a href="../html/login.html">Entrar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="redes__sociais">
+        <a href="https://www.facebook.com/HomemAranha" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/spidermanmovie/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        
+        <a href="https://twitter.com/SpiderMan" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <div >
+        <div class="container__contato">
+            <h2>Fale comigo!</h2>
+            <div class="links">
+                <a href="">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>(11) 90702-2019</p>
+                </a>
+                <a href="">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>Mande uma mensagem para meu WhatsApp</p>
+                </a>
+            </div>
+
+            <p class="ou">Ou</p>
+
+            <div class="container__filho">
+                <div>
+                    <p>
+                        Os campos marcados com um asterisco (
+                        <a href="#assunto">*</a>
+                        ) são de preenchimento obrigatório.
+                    </p>
+                 </div>
+
+                <div class="campos">
+                    <label for="assunto">Assunto
+                        <a href="#assunto">*</a>
+                    </label>
+                    <select name="assunto" id="assunto">
+                        <option value="0" disabled selected>Selecione o assunto</option>
+                        <option value="1">Dúvida sobre viagens</option>
+                        <option value="2">Dúvida sobre o filme</option>
+                        <option value="3">Dúvida sobre cadastro</option>
+                        <option value="4">Feedback sobre o site</option>
+                        <option value="5">Outro</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label for="nome">Primeiro nome
+                        <a href="#nome">*</a>
+                    </label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="campos">
+                    <label for="sobrenome">Sobrenome
+                        <a href="#sobrenome">*</a>
+                    </label>
+                    <input type="text" id="sobrenome" required>
+                </div>
+                <div class="campos">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone">
+                </div>
+                <div class="campos">
+                    <label for="email">Email
+                        <a href="#email">*</a>
+                    </label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="campos">
+                    <label for="mensagem">Sua Mensagem
+                        <a href="#mensagem">*</a>
+                    </label>
+                    <textarea id="mensagem" required></textarea>
+                </div>
+                <div class="campos__desejo">
+                    <input type="checkbox" name="desejo" id="desejo">
+                    <label for="desejo">Desejo receber emails sobre novidades e atualizações!</label>
+                </div>
+                <div class="botao">
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

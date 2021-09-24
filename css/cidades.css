@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Scope+One&display=swap');
+*{
+    font-family: 'Scope One', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #030104;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: #ba2e26;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #ba2e26;
+    margin: 0 10px;
+    font-weight: 900;
+}
+header a:hover{
+    color: #ba2d26ab;
+} 
+html{
+    background-image: url(../images/background-teia.jpg);
+    background-color: #ba2e26;
+}
+.setas{
+    display: flex;
+    justify-content: space-between;
+}
+.esquerda{
+    position: absolute;
+    left: 0;
+}
+.direita{
+    position: absolute;
+    right: 0;
+}
+.setas a{
+    font-size: 40px;
+    color: #030104;
+    margin: 10px;
+}
+.redes__sociais{
+    background-color: rgba(0, 0, 0, 0.753);
+    box-shadow: 1px 1px 5px 3px #000;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 150px;
+}
+.redes__sociais a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.redes__sociais a:hover{
+    color: #ba2e26;
+}
+.container{
+    background-color: #abadbf;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+p{
+    text-align: justify;
+    margin: 5px 0;
+}
+h3{
+    font-size: 25px;
+    margin: 10px 0;
+    text-align: center;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    margin: 15px 25px; 
+    display: flex;
+    flex-direction: column; 
+}
+.container a, .expessura{
+    width: 35%;
+    text-decoration: none;
+    color: #021656;
+    font-weight: 600;
+}
+a:hover{
+    color: #030104;
+}
+hr{
+    border: 3px solid #ba2e26;
+    margin: 0 -15px;
+}
+table{
+    width: 40%;
+    margin: 0 auto 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tabela__londres{
+    width: 90%;
+}
+caption{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    background-color: #021656;
+}
+tr{
+    height: 25px;
+    border-bottom: 1px solid #021656;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+iframe{
+    width: 95%;
+    height: 450px;
+    border: 0;
+}
+.bilheteria{
+    display: flex;
+}
+.subtitulo{
+    font-size: 16px;
+    font-weight: 700;
+}
+.voltar{
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 100px;
+    padding: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    
+}
+.voltar a{
+    text-decoration: none;
+    color: #abadbf;
+    font-size: 45px;
+}
+footer{
+    background-color: #030104;
+    color: #fff;
+    font-size: 17px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    color: #ba2e26;
+    font-weight: 900;
+}
+footer a:hover{
+    color: #fff;
+}
