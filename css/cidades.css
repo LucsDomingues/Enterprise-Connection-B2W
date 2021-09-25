@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
-    font-family: 'Scope One', serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,8 +15,12 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-h1, h2, h3{
-    font-family: 'Roboto', sans-serif;
+@font-face {
+    font-family: Title;
+    src: url(../Fonts/ghostclanexpandital.ttf);
+}
+h1, h2{
+    font-family: Title;
 }
 h1{
     font-size: 40px;
@@ -129,13 +133,12 @@ table{
     width: 90%;
 }
 caption{
-    font-family: 'Roboto', sans-serif;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #021656;
 }
 tr{
-    height: 25px;
+    height: 30px;
     border-bottom: 1px solid #021656;
 }
 .mapa{
@@ -157,17 +160,17 @@ iframe{
 }
 .voltar{
     background-color: rgba(0, 0, 0, 0.753);
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: border-box;
     position: fixed;
-    bottom: 30px;
+    bottom: 32px;
     right: 10px;
-    
 }
 .voltar a{
     text-decoration: none;
     color: #abadbf;
-    font-size: 45px;
+    font-size: 40px;
 }
 footer{
     background-color: #030104;
