@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <title>Entrar</title>
 </head>
 
 <body class="fundo">
     <header>
-        <a href="./index.html">
-            <h1>Homem-Aranha</h1>
-        </a>
+        <section>
+            <a href="./index.html">
+                <h1>Homem-Aranha</h1>
+            </a>
+        </section>
+
         <nav>
             <ul>
                 <li>
@@ -32,41 +35,47 @@
         </nav>
     </header>
 
-    <div class="redes__sociais">
-        <a href="https://www.facebook.com/HomemAranha" target="_blank">
-            <i class="fab fa-facebook"></i>
-        </a>
-        
-        <a href="https://www.instagram.com/spidermanmovie/" target="_blank">
-            <i class="fab fa-instagram"></i>
-        </a>
-        
-        <a href="https://twitter.com/SpiderMan" target="_blank">
-            <i class="fab fa-twitter"></i>
-        </a>
-    </div>
+    <main>
+        <nav class="redes__sociais">
+            <a href="https://www.facebook.com/HomemAranha" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
 
-    <div>
-        <div class="container__login">
-            <h2 class="fonte__diferente">Entrar</h2>
-            <div>
+            <a href="https://www.instagram.com/spidermanmovie/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://twitter.com/SpiderMan" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </nav>
+
+        <article class="container__login">
+            <section>
+                <h2 class="fonte__diferente">Entrar</h2>
+            </section>
+
+            <section>
                 <label for="email">Email</label>
                 <input type="email" id="email" required autofocus>
-            </div>
-            <div>
+            </section>
+
+            <section>
                 <label for="senha">Senha</label>
                 <input type="password" id="senha" required minlength="5" maxlength="8">
-            </div>
-            <div class="botao">
+            </section>
+
+            <section class="botao">
                 <button type="submit">Entrar</button>
-            </div>
-            <div class="links__login">
+            </section>
+
+            <section class="links__login">
                 <a href="">Esqueceu a senha?</a>
                 <p>|</p>
                 <a href="">Cadastrar-se</p>
-            </div>
-        </div>
-    </div>
+            </section>
+        </article>
+    </main>
 </body>
 
 </html>

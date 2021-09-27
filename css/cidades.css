@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Estilização do cabeçalho */
 header{
     background-color: #030104;
     height: 80px;
@@ -41,6 +42,7 @@ header a{
 header a:hover{
     color: #ba2d26ab;
 } 
+/* Estilização das páginas de cidades */
 html{
     background-image: url(../images/background-teia.jpg);
     background-color: #ba2e26;
@@ -103,14 +105,22 @@ h3{
 }
 .imagem{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 10px;
+}
+figcaption{
+    font-size: 15px;
 }
 .texto{
     margin: 15px 25px; 
     display: flex;
     flex-direction: column; 
 }
-.container a, .expessura{
+address{
+    font-style: normal;
+}
+.container a{
     width: 35%;
     text-decoration: none;
     color: #021656;
@@ -137,9 +147,24 @@ caption{
     font-size: 20px;
     background-color: #021656;
 }
-tr{
-    height: 30px;
-    border-bottom: 1px solid #021656;
+thead tr{
+    border-bottom: 2px solid #021656;
+}
+th, td{
+    font-size: 15px;
+    padding: 10px;
+}
+tbody tr{
+    border-bottom: 1px solid #888;
+}
+tbody tr:hover{
+    background-color: #0216561f;
+    color: #021656;
+    font-weight: 900;
+}
+tfoot tr{
+    background-color: #0216561f;
+    font-weight: 600;
 }
 .mapa{
     display: flex;
@@ -164,7 +189,7 @@ iframe{
     padding: 20px;
     box-sizing: border-box;
     position: fixed;
-    bottom: 32px;
+    bottom: 20px;
     right: 10px;
 }
 .voltar a{
@@ -175,8 +200,8 @@ iframe{
 footer{
     background-color: #030104;
     color: #fff;
-    font-size: 17px;
-    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
     display: flex;
     justify-content: center;
 }
